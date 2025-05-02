@@ -23,7 +23,7 @@ function ToDo() {
         <section className='container'>
             <div className='inputContainer'>
                 <form action="" onSubmit={handleSubmit}>
-                    <input type="text" name="toDo" value={input} id="" placeholder='Enter your Schedule Here' onChange={handleInput}/>
+                    <input type="text" name="toDo" value={input} id="" placeholder='Enter your Schedule Here' required onChange={handleInput}/>
                     <button type="submit">Submit</button>
                 </form>
             </div>
